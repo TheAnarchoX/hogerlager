@@ -1,0 +1,22 @@
+.jumbotron {
+    background-image: url("Blackjack_board.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    padding-bottom: 32px !important;
+}
+
+.jumbotron * {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

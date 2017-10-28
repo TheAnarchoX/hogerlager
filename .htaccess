@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+# remove .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
